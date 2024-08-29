@@ -1,0 +1,104 @@
+/* General App Styling */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8fa; /* Light gray background */
+}
+
+/* Search Box Styling */
+.search-container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  width: calc(100% - 22px);
+  padding: 12px;
+  border: 1px solid #d1d5da; /* Light gray border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745; /* GitHub green */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px; /* Space between button and input field */
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Error Message Styling */
+.error {
+  color: #d73a49; /* GitHub red */
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Search Results Styling */
+.results {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.results h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; /* Dark gray for text */
+}
+
+.results .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #e1e4e8; /* Light border around avatar */
+}
+
+.results p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.results a {
+  color: #0366d6; /* GitHub blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.results a:hover {
+  text-decoration: underline;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.results li + li {
+  border-top: 1px solid #e1e4e8; /* Light gray border between items */
+  padding-top: 10px;
+}
